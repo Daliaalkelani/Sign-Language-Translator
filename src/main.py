@@ -167,9 +167,9 @@ class SignToSpeechApp(ctk.CTkFrame):
         sidebar = ctk.CTkFrame(self, width=150)
         sidebar.pack(side="left", fill="y")
 
-        ctk.CTkButton(sidebar,text="الأرقام", command=lambda: self.start_model('D:\\img_num\\model.p', labels_dict_numbers),height=50,width=180, font=ctk.CTkFont(size=18, weight="bold")).pack(pady=15)
-        ctk.CTkButton(sidebar,text="الحروف",command=lambda: self.start_model('D:\\img_char\\model.p', labels_dict_letters),height=50,width=180,font=ctk.CTkFont(size=18, weight="bold")).pack(pady=15)
-        ctk.CTkButton(sidebar,text="الكلمات",command=lambda: self.start_model('D:\\img_word\\model.p', labels_dict_words), height=50,width=180, font=ctk.CTkFont(size=18, weight="bold")).pack(pady=15)
+        ctk.CTkButton(sidebar,text="الأرقام", command=lambda: self.start_model('models/numbermodel.p', labels_dict_numbers),height=50,width=180, font=ctk.CTkFont(size=18, weight="bold")).pack(pady=15)
+        ctk.CTkButton(sidebar,text="الحروف",command=lambda: self.start_model('models/charmodel.p', labels_dict_letters),height=50,width=180,font=ctk.CTkFont(size=18, weight="bold")).pack(pady=15)
+        ctk.CTkButton(sidebar,text="الكلمات",command=lambda: self.start_model('models/wordmodel.p', labels_dict_words), height=50,width=180, font=ctk.CTkFont(size=18, weight="bold")).pack(pady=15)
         ctk.CTkButton( sidebar, text="   الكاميرا ايقاف",command=self.stop_camera,height=50,width=180,font=ctk.CTkFont(size=18, weight="bold")).pack(pady=15)
         ctk.CTkButton( sidebar,text=" الصوت ايقاف/تشغيل",command=self.toggle_speech,height=50,width=180,font=ctk.CTkFont(size=18, weight="bold")).pack(pady=15)
         ctk.CTkButton(sidebar,text="🔄النص مسح", command=self.clear_text, height=50, width=180,font=ctk.CTkFont(size=18, weight="bold")).pack(pady=15)
