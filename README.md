@@ -1,6 +1,6 @@
 # 🖐 Arabic Sign Language Bidirectional Translator
 
-A **bidirectional translator for Arabic Sign Language**, converting **text/speech → sign** and **sign → speech** in real-time using your webcam.  
+A **bidirectional translator for Arabic Sign Language**, converting **speech → sign** and **sign → speech** in real-time using your webcam.  
 This project supports **letters, numbers, and words/phrases** recognition with live Arabic text output.
 
 ---
