@@ -41,8 +41,19 @@ Python 3.8+ and the following libraries:
 ```bash
 pip install customtkinter pillow requests SpeechRecognition opencv-python mediapipe numpy arabic-reshaper python-bidi gTTS pygame
 ```
+---
+
+## 📸 Screenshots
+
+### Text → Sign
+![Text to Sign Screenshot](path/to/text_to_sign.png)
+
+### Sign → Speech
+![Sign to Speech Screenshot](path/to/sign_to_speech.png)
+
 
 ---
+
 ## 🚀 How to Use
 Run the program:
 python main.py
