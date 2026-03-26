@@ -6,7 +6,7 @@ A **bidirectional translator for Arabic Sign Language**, converting **text/speec
 
 ## ✨ Features
 
-### 1️⃣ Text/Speech → Sign
+### 1️⃣ Speech → Sign
 - Type a word or sentence manually or **use your voice**.  
 - Displays **animated GIFs** for words in Arabic.  
 - Supported words include: `"mom"`, `"Alhamdulillah"`, `"angry"`, `"house"`, `"how are you"`, and more.  
